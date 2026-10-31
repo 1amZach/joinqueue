@@ -7,6 +7,7 @@ description 'Connection queue with live queue card, priority tiers, Discord role
 version '1.0.0'
 author 'IamZach'
 discord 'https://discord.gg/agn'
+repository 'https://github.com/1amZach/joinqueue'
 
 server_scripts {
     'config.lua',
