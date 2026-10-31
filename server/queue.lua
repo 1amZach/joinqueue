@@ -106,6 +106,13 @@ function Queue.admit(entry, now)
     admissions[#admissions + 1] = now or os.time()
     if #admissions > 20 then table.remove(admissions, 1) end
 
+    -- a loading screen can show how long they waited
+    if entry.deferrals and entry.deferrals.handover then
+        pcall(entry.deferrals.handover, {
+            queue = { waited = (now or os.time()) - entry.joined, priority = entry.priority.label },
+        })
+    end
+
     finish(entry)
 end
 

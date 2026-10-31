@@ -4,7 +4,7 @@ lua54 'yes'
 
 name 'joinqueue'
 description 'Connection queue with live queue card, priority tiers, Discord roles and crash grace'
-version '1.0.0'
+version '1.1.0'
 author 'IamZach'
 discord 'https://discord.gg/agn'
 repository 'https://github.com/1amZach/joinqueue'

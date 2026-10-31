@@ -116,6 +116,7 @@ Everything else is in `config.lua`: grace length, reserved slots, timeouts, the 
 
 ## Addons
 
+- [fiveload](https://github.com/1amZach/fiveload): a loading screen that shows players how long they waited and their priority.
 - [fivecord](https://github.com/1amZach/fivecord): run the server from Discord. Bans, reports, staff chat, restarts and more with slash commands. joinqueue works the same with or without it.
 
 ## Support
