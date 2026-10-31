@@ -114,6 +114,10 @@ exports.joinqueue:setPaused(true, 'Restarting in 5 minutes')
 
 Everything else is in `config.lua`: grace length, reserved slots, timeouts, the card's title, banner image and tips, and every message players see if you want to translate them.
 
+## Addons
+
+- [fivecord](https://github.com/1amZach/fivecord): run the server from Discord. Bans, reports, staff chat, restarts and more with slash commands. joinqueue works the same with or without it.
+
 ## Support
 
 Made by **IamZach**. Questions, bugs or ideas: [discord.gg/agn](https://discord.gg/agn)
